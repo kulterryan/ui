@@ -83,6 +83,16 @@ import {
 </Drawer>
 ```
 
+### Background Animation
+
+To enable background animations for the drawer, this change wraps the `layout.tsx` content inside a `<div>` with the `data-vaul-drawer-wrapper `attribute. (ref)[https://github.com/emilkowalski/vaul/issues/411]
+
+```tsx
+<div data-vaul-drawer-wrapper>
+  {/* Other codes in layout.tsx */}
+</div>
+```
+
 ## Examples
 
 ### Responsive Dialog
